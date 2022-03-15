@@ -12,7 +12,7 @@ Esta contiene lista general de todos los juegos, Link con algunas categorías re
 Consta de la descripción datos importantes e imágenes del juego
 
 
-Para la realización del proyecto se utilizó el Context API de React, y Material UI, React-router-dom, CSS3, Hooks y Custom-Hooks
+Para la realización del proyecto se utilizó el Context API de React, y Material UI, React-router-dom, CSS3, Hooks y Custom-Hooks, HOC con ErrorBoundary y Lazy loading para optimización en el Home.
 
 ## Available Scripts
 
