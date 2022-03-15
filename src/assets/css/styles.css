@@ -8,6 +8,7 @@ body {
     max-width: 1400px;
     width: 95%;
 }
+
 .game-card img {
     width: 100%;
 }
@@ -40,9 +41,11 @@ body {
     text-decoration: none;
     font-size: 0.8rem;
 }
+
 .right {
     text-align: right;
-} 
+}
+
 .nav-games {
     display: flex;
     justify-content: center;
@@ -50,6 +53,7 @@ body {
     width: 50%;
     align-items: center;
 }
+
 .subtitle.right {
     background: #ff5722;
     display: inherit;
@@ -59,36 +63,44 @@ body {
     font-weight: 700;
     font-size: 0.7rem;
 }
+
 .subtitle.text {
     white-space: nowrap;
-      text-overflow: ellipsis;
-      overflow: hidden;
+    text-overflow: ellipsis;
+    overflow: hidden;
 }
+
 .bar-top {
     display: flex;
 }
+
 .bar-search {
     display: flex;
     width: 50%;
     align-items: center;
 }
+
 .container-search {
     display: flex;
     align-items: center;
     width: 100%;
 }
+
 .container-search button {
     margin-top: 5px;
     width: 60px;
     height: 60px;
     color: white;
 }
+
 game-images-list {
     display: flex;
 }
+
 .content-img img {
     width: 100%;
 }
+
 .not-found {
     display: flex;
     width: 100%;
@@ -96,30 +108,37 @@ game-images-list {
     align-items: center;
     justify-content: center;
 }
+
 .container-pagination {
     display: flex;
     margin: 1rem 0;
     justify-content: center;
 }
+
 .link-nav-header {
     margin: 0 1rem;
     text-decoration: none;
 }
+
 .home-slider {
     width: 90%;
     margin: 1rem auto;
 }
+
 .banner-p {
     width: 100%;
 }
+
 .image-movie-container img {
     width: 100%;
 }
+
 .logo-site {
     width: 85%;
     max-width: 250px;
 
 }
+
 .content-loader {
     width: 70vw;
     height: 90vh;
@@ -127,6 +146,7 @@ game-images-list {
     justify-content: center;
     align-items: center;
 }
+
 footer {
     display: flex;
     justify-content: center;
@@ -141,8 +161,9 @@ footer {
     position: relative;
     width: 80px;
     height: 80px;
-  }
-  .lds-hourglass:after {
+}
+
+.lds-hourglass:after {
     content: " ";
     display: block;
     border-radius: 50%;
@@ -153,17 +174,20 @@ footer {
     border: 32px solid #fff;
     border-color: #fff transparent #fff transparent;
     animation: lds-hourglass 1.2s infinite;
-  }
-  @keyframes lds-hourglass {
+}
+
+@keyframes lds-hourglass {
     0% {
-      transform: rotate(0);
-      animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+        transform: rotate(0);
+        animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
     }
+
     50% {
-      transform: rotate(900deg);
-      animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+        transform: rotate(900deg);
+        animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
     }
+
     100% {
-      transform: rotate(1800deg);
+        transform: rotate(1800deg);
     }
-  }
+}

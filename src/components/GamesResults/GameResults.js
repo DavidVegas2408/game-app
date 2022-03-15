@@ -2,8 +2,7 @@ import React, { Fragment } from 'react';
 import { Grid } from '@material-ui/core';
 import GameCard from './GameCard';
 
-
-const GameResults = ({ games, itemIni, setItemIni, itemEnd, setItemEnd }) => {
+const GameResults = ({ games, itemIni, itemEnd }) => {
 
     return (
         <Fragment>
@@ -37,14 +36,3 @@ const GameResults = ({ games, itemIni, setItemIni, itemEnd, setItemEnd }) => {
 }
 
 export default GameResults
-/*
-const dataGamesWithPagination = () => {
-    const newDataGet = [];
-    gamesFull.map((el, index) => {
-        if (index < pagEnd) {
-            newDataGet.push(el);
-        }
-        return newDataGet
-    })
-    setGames(newDataGet);
-}*/ 

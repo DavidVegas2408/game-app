@@ -4,9 +4,9 @@ import { Typography } from '@material-ui/core';
 const Footer = () => (
     <footer>
         <Typography gutterBottom variant="body2" component="p">
-        &copy; {new Date().getFullYear()} - David Vegas
-          </Typography>
-        
+            &copy; {new Date().getFullYear()} - David Vegas
+        </Typography>
+
     </footer>
 );
 

@@ -3,6 +3,7 @@ import { AppBar, Toolbar, styled, Grid } from "@material-ui/core"
 import logo from "./../../assets/image/logo.jpg";
 import { Link } from "react-router-dom";
 
+
 const MyAppBar = styled(AppBar)({
     background: '#092239',
     boxShadow: 'none'
@@ -19,12 +20,14 @@ const Header = () => {
                         </Link>
                     </Grid>
                     <Grid item xs={12} sm={6}>
+
                         <Link className='link-nav-header' to={`/`}>
                             Home
                         </Link>
                         <Link className='link-nav-header' to={`/games`}>
                             Lista de Juegos
                         </Link>
+
                     </Grid>
                 </Grid>
             </Toolbar>

@@ -1,14 +1,14 @@
 import React from 'react'
-import { Grid, styled } from '@material-ui/core';
+import { styled } from '@material-ui/core';
 import { Link } from "react-router-dom";
 
 const MyLink = styled(Link)({
     textDecoration: 'none',
-  });
+});
 
 const GameCard = ({ id, title, platform, short_description, thumbnail }) => {
-  return (
-  
+    return (
+
         <div className='game-card'>
             <MyLink className="buttonPrimary" to={`/games/details/${id}`}>
                 <img src={thumbnail} alt={title} spacing={2} />
@@ -23,8 +23,8 @@ const GameCard = ({ id, title, platform, short_description, thumbnail }) => {
                 </p>
             </MyLink>
         </div>
-    
-  )
+
+    )
 }
 
 export default GameCard

@@ -3,6 +3,7 @@ import Banners from "./../../assets/image/league-legends.jpg"
 import { Grid, Typography } from '@material-ui/core';
 import { HomeGamesContext } from "./../../contexts/HomeGamesContext";
 import HomeResults from './HomeResults';
+import { Link } from "react-router-dom";
 
 const HomePage = () => {
 
@@ -15,7 +16,9 @@ const HomePage = () => {
     <Fragment>
       <div className='grid-home'>
         <Grid container justify="center" item xs={12}>
-          <a href='/games/details/286'><img className='banner-p' src={Banners} alt="League Legends"></img></a>
+          <Link to={`/games/details/286`}>
+            <img className='banner-p' src={Banners} alt="League Legends"></img>
+          </Link>
         </Grid>
 
         <Grid container justify="center" item xs={12}>

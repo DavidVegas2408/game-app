@@ -5,15 +5,15 @@ export const GamesContext = createContext();
 
 const GamesContextProvider = ({ children }) => {
 
-    const { getGamesList, 
-        getGamesForTerm, 
-        setCurrentSearch, 
-        setDoneFetch, 
-        getsearchGames, 
-        doneFetch, 
-        games, 
-        category, 
-        currentSearch, 
+    const { getGamesList,
+        getGamesForTerm,
+        setCurrentSearch,
+        setDoneFetch,
+        getsearchGames,
+        doneFetch,
+        games,
+        category,
+        currentSearch,
         itemIni,
         itemEnd,
         pagAct,
@@ -43,18 +43,19 @@ const GamesContextProvider = ({ children }) => {
     };
 
     return (
-        <GamesContext.Provider value={{ 
-            doneFetch, 
-            games, 
-            category, 
-            setCatagory, 
-            searchGames, 
-            itemIni, 
-            setItemIni, 
-            itemEnd, 
-            setItemEnd, 
-            pagAct, 
-            setPagAct }}>
+        <GamesContext.Provider value={{
+            doneFetch,
+            games,
+            category,
+            setCatagory,
+            searchGames,
+            itemIni,
+            setItemIni,
+            itemEnd,
+            setItemEnd,
+            pagAct,
+            setPagAct
+        }}>
             {children}
         </GamesContext.Provider>
     );

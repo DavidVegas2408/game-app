@@ -44,22 +44,21 @@ const GameInfo = ({ game }) => {
           <Typography gutterBottom variant="h6" component="p">
             Screenshots:
           </Typography>
-          </Grid>
+        </Grid>
       </Grid>
       <Grid container spacing={3}>
-            {
-              game.screenshots.map(el => {
-                return (
-                  <GameImages
-                    key={el.id}
-                    id={el.id}
-                    image={el.image}
-                    title={game.title}
-                  />
-                );
-              })
-            }
-          </Grid>
+        {
+          game.screenshots.map(el => {
+            return (
+              <GameImages
+                key={el.id}
+                image={el.image}
+                title={game.title}
+              />
+            );
+          })
+        }
+      </Grid>
 
     </div>
   )

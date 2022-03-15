@@ -33,12 +33,9 @@ const GamesResults = () => {
   const updateCategory = (term) => {
     setCatagory(term);
   }
-
   return (
     <Fragment>
       <Grid container alignItems="center">
-
-
       <Grid item xs={12} sm={6}>
           <MyButton onClick={() => updateCategory("sports")} variant="contained" className='button-nav'>Sports</MyButton>
           <MyButton onClick={() => updateCategory("fantasy")} variant="contained" className='button-nav'>Fantasy</MyButton>
@@ -50,8 +47,6 @@ const GamesResults = () => {
             searchGames={searchGames}
           />
         </Grid>
-
-
       </Grid>
       {
         doneFetch ? (
@@ -59,15 +54,12 @@ const GamesResults = () => {
             <GameResults
               games={games}
               itemIni={itemIni}
-              setItemIni={setItemIni}
               itemEnd={itemEnd}
-              setItemEnd={setItemEnd}
             />
             : "Sin resultado"
         )
           : <Loader />
       }
-
       <PaginationGames
         pagAct={pagAct}
         setItemIni={setItemIni}
