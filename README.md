@@ -1,6 +1,18 @@
-# Getting Started with Create React App
+# Game APP
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este proyecto esta creado con la API de [https://www.freetogame.com/](https://www.freetogame.com/), el en el cual consta de 3 páginas principales que son:
+
+### Home: 
+Consta de un banner principal y un carrusel de juegos recomendados el cual se creó con la librería de [React Slick](https://react-slick.neostack.com/)
+
+### Lista de juegos: 
+Esta contiene lista general de todos los juegos, Link con algunas categorías recomendadas, Buscador y Paginador 
+
+### Página de detalle: 
+Consta de la descripción datos importantes e imágenes del juego
+
+
+Para la realización del proyecto se utilizó el Context API de React, y Material UI, React-router-dom, CSS3, Hooks y Custom-Hooks
 
 ## Available Scripts
 
